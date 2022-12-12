@@ -1,23 +1,167 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: roboto;   
+}
+
+
 .header, .footer {
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 350px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 5px 0;
+   
 }
 
 .hero-text {
     font-size: 48px;
     font-weight: 900;
+    color: #f9faf8;
 }
 
 .info-text {
     font-size: 18px;
-    color: #e5e7eb;
+    color: gray;
 }
 
 .header-text {
     font-size: 24px;
-    color: #f9faf8
+    color: #f9faf8;
+    padding: 5px 0;
+}
+
+.box-one {
+    background-color: #1f2937;
+    margin: 0;
+    display: flex;
+    padding: 5px 350px;
+    flex: 1;
+}
+
+.im img {
+    height: 200px;
+    width: auto;
+    padding: 40px 0;
+}
+
+.text-group {
+    display: flex;
+    direction: column;
+    flex-wrap: wrap; 
+    padding: 40px 0;
+    align-content: center;
+}
+
+.box-two {
+    padding: 5px 350px;
+    margin-bottom: 25px;
+}
+
+.info-subtitle-box {
+    display: flex;
+    gap: 15px;
+    padding: 40px 0;
+}
+
+.image-subtitle .info-text {
+    text-align: center;
+}
+.image-border img{
+    border: 2px solid #3882f6;
+    border-radius: 15px;
+    flex: 1;
+    display: flex;
+    height: 100px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.info-header-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    padding: 15px;
+}
+
+.box-three {
+    background-color: gray;
+    padding: 40px 350px;
+    }
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.attribute {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: right;
+}   
+
+.box-four {
+    border-radius: 15px;
+    background-color: #3882f6;
+    margin: 50px;
+    padding: 20px 350px;
+    display: flex;
+    
+    flex: 1;
+}
+
+.text-group-two {
+    display: flex;
+    padding: 0 40px;
+    margin: 0;
+    direction: column;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 button {
-    background: color #3882f6;
+    background-color: #3882f6;
+    font-size: 24px;
+    color: #f9faf8;
+    border-radius: 15px;
+    padding: 2px 20px;
+    margin: 5px 0;
+    }
+
+.special-button {
+    display: flex;
+    flex: none;
 }
 
+.box-four button {
+    border-color: #f9faf8;
+}
+.another-text {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.more-text {
+    font-size: 18px;
+    color: gray;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.footer {
+    justify-content: center;
+    padding: 20px
+}
